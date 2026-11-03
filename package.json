@@ -1,0 +1,25 @@
+{
+  "name": "algoarena",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive Algorithm Battle & Visualization Platform",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build",
+    "test": "node --test test/algorithms.test.js"
+  },
+  "keywords": [
+    "algorithms",
+    "visualization",
+    "sorting",
+    "searching",
+    "graphs",
+    "dynamic-programming",
+    "react",
+    "vite",
+    "battle-mode"
+  ],
+  "author": "AlgoArena Team",
+  "license": "MIT"
+}
